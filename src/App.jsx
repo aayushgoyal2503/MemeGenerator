@@ -10,7 +10,6 @@ function App() {
     <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }} >
 
     <div className='App'>
-      <h1>Meme Generator</h1>
       <Routes>
         <Route path="/" element={<Homepage/>}/>
         <Route path="/edit" element={<Edit/>}/>
