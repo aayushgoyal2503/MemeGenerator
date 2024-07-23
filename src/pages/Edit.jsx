@@ -19,7 +19,7 @@ const Edit=()=>{
         <div>
         <h1>Edit Page</h1>
         <div ref={memeRef}>
-           <img src={params.get("url")} width="300px" />
+           <img src={params.get("url")} height="500px" width="500px" />
          {
             Array(count)
             .fill(0)
@@ -29,6 +29,7 @@ const Edit=()=>{
          }
         </div>
         <Button onClick={addText}>Add Text</Button>
+             &nbsp; &nbsp;
         <Button variant="success"onClick={(e) =>exportComponentAsJPEG(memeRef)}>
             Save
         </Button>
