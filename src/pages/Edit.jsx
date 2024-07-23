@@ -17,6 +17,7 @@ const Edit=()=>{
 
     return(
         <div>
+        <h1>Edit Page</h1>
         <div ref={memeRef}>
            <img src={params.get("url")} width="300px" />
          {
